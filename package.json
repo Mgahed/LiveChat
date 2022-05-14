@@ -1,0 +1,35 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "Realtime chat application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "author": "Mgahed",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^3.1.1",
+    "csurf": "^1.11.0",
+    "dotenv": "^16.0.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-session": "^1.17.2",
+    "moment": "^2.29.3",
+    "mongodb": "^4.5.0",
+    "mongoose": "^6.2.10",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.7.3",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "sequelize": "^6.19.0",
+    "socket.io": "^2.0.3"
+  }
+}
