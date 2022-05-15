@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js",
-    "build": "ng build",
-    "heroku-postbuild": "ng build --prod",
+    "build": "npm build",
+    "heroku-postbuild": "npm build --prod",
     "start-server": "node app.js"
   },
   "author": "Mgahed",
