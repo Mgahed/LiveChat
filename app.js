@@ -72,13 +72,13 @@ app.use(authRoutes);
 
 app.use(errorController.get404);
 
-const PORT = 5000 || 3000;
+const PORT = process.env.PORT || 3000;
 const HOST = process.env.HOST || '0.0.0.0'
 
 mongoose
   .connect(MONGODB_URI)
   .then(result => {
-    server.listen(PORT, HOST, () => {
+    server.listen(PORT, () => {
       console.log('Server started on ' + HOST + ':' + PORT);
 
       io.on('connection', function (socket) {
