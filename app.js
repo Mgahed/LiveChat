@@ -75,7 +75,7 @@ app.use(errorController.get404);
 mongoose
   .connect(MONGODB_URI)
   .then(result => {
-    server.listen(3000, () => {
+    server.listen(3000 || 5000, () => {
       console.log('Run on => http://localhost:3000');
 
       io.on('connection', function (socket) {
