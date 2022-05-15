@@ -36,11 +36,17 @@ npm install
 npm start
 ```
 
+
+[//]: # ( Production Link: )
+## Link
+
+* [Mgahed Chat App](https://mgahed-live-chat.herokuapp.com/)
+
+
 [//]: # ( Notes: )
 
 ## Notes
 
-* Link of the running project will be added to the README.md file soon.
 * Updates will be added soon for this project like:
     * User should add user first before sending message (as now all registered users are friends).
     * User should be able to see their friends list.
