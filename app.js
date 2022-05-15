@@ -79,7 +79,7 @@ mongoose
   .connect(MONGODB_URI)
   .then(result => {
     server.listen(PORT, () => {
-      console.log('Server started on ' + HOST + ':' + PORT);
+      console.log('Server started on http://localhost:' + PORT);
 
       io.on('connection', function (socket) {
         console.log("USER CONNECTED...");
