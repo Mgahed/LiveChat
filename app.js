@@ -75,6 +75,8 @@ app.use(errorController.get404);
 const PORT = process.env.PORT || 3000;
 const HOST = process.env.HOST || '0.0.0.0'
 
+process.env.TZ = 'Africa/Cairo';
+
 mongoose
   .connect(MONGODB_URI)
   .then(result => {
