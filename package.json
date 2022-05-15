@@ -6,8 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js",
-    "build": "npm build",
-    "heroku-postbuild": "npm build --prod",
     "start-server": "node app.js"
   },
   "author": "Mgahed",
@@ -33,5 +31,9 @@
     "nodemailer-smtp-transport": "^2.7.4",
     "sequelize": "^6.19.0",
     "socket.io": "^2.0.3"
+  },
+  "engines": {
+    "node": "16.14.0",
+    "npm": "8.3.0"
   }
 }
